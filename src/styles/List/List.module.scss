@@ -1,0 +1,40 @@
+.list {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+th {
+  padding: 20px;
+  background-color:#4267B2;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.trbody td {
+  background-image: linear-gradient(to bottom, #5a83d4 80%, #fff);
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+}
+
+.trbody td:nth-child(1):hover {
+  color: white;
+  text-shadow: 1px 1px 3px black ;
+}
+
+.date, .value{
+  text-align: end;
+}
+
+tfoot {
+  background-color:#4267B2;
+  color: white;
+  text-align: end;
+}
+
+tfoot td {
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
